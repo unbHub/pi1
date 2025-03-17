@@ -94,13 +94,13 @@ void testMotors() {
 void testMovement() {
   Serial.println("Teste de Movimentação");
 
-  andarprafrente();
+  forward();
   delay(2000);
 
-  direita();
+  right();
   delay(2000);
 
-  esquerda();
+  left();
   delay(2000);
 
   stop();
@@ -144,7 +144,7 @@ void testDetectionIntegration() {
 
   if (distance < 30) {
     Serial.println("Oponente detectado!");
-    andarprafrente();
+    forward();
   } else {
     Serial.println("Nenhum oponente detectado.");
   }
@@ -179,13 +179,13 @@ void testStrategy() {
 
   if (irLeft || irRight) {
     Serial.println("Borda detectada, recuando...");
-    re();
+    backward();
   } else if (distance < 30) {
     Serial.println("Oponente detectado, avançando...");
-    andarprafrente();
+    forward();
   } else {
     Serial.println("Procurando oponente...");
-    direita();
+    right();
   }
 }
 ```
