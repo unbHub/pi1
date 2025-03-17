@@ -48,3 +48,6 @@ A equipe de software produziu uma documentação detalhada do sistema desenvolvi
 ## Conclusão
 
 O software desenvolvido para o carrinho sumô utiliza sensores para detectar obstáculos e bordas da arena, implementando uma estratégia eficiente para remover oponentes. A equipe de software foi responsável por toda a lógica de controle e documentação do sistema, garantindo um desenvolvimento organizado e funcional.
+
+## Licença 📜
+Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
